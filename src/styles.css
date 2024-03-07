@@ -1,3 +1,33 @@
 /* TASK #3: CSS Implementation */
 /* Add your CSS implementation here. */
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(8, 80px);
+    grid-template-rows: repeat(8, 80px);
+    gap: 0px 0px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black; */
+}
+.grid-item {
+    width: 80px;
+    height: 80px;
+}
+
+.grid-item:hover {
+    background-color: red;
+    color: white;
+}
+
+.white-square {
+    background-color: white;
+    color: white;
+}
+
+.black-square {
+    background-color: black;
+    color: black;
+}
